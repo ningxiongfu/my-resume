@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>北京三日游攻略</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1528164344705-47D8a5c1d15e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #2c3e50;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #3498db;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .day {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+
+    .day h2 {
+      background: #3498db;
+      color: white;
+      padding: 20px;
+      font-size: 1.8em;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .text {
+      flex: 1;
+      min-width: 300px;
+      padding: 10px;
+    }
+
+    .image {
+      flex: 1;
+      min-width: 300px;
+      padding: 10px;
+    }
+
+    .image img {
+      width: 100%;
+      border-radius: 8px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #2c3e50;
+      color: white;
+      font-size: 1em;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav a {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>北京三日游攻略</h1>
+    <p>故宫 · 长城 · 颐和园 · 美食 · 文化体验</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#day1">第一天</a></li>
+      <li><a href="#day2">第二天</a></li>
+      <li><a href="#day3">第三天</a></li>
+    </ul>
+  </nav>
+
+  <section id="day1" class="day">
+    <h2>Day 1：皇家气魄 — 故宫 & 天安门广场</h2>
+    <div class="content">
+      <div class="text">
+        <p><strong>上午：</strong>参观【天安门广场】，观看升旗仪式（建议提前查时间，5:00左右），随后进入【故宫博物院】，穿越600年历史，感受明清皇家宫殿的宏伟。</p>
+        <p><strong>下午：</strong>游览景山公园，登顶万春亭俯瞰故宫全景。傍晚前往【王府井步行街】，品尝老北京小吃：炸酱面、豆汁儿、卤煮、糖葫芦。</p>
+        <p><strong>推荐交通：</strong>地铁1号线到天安门东站</p>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1584237305520-4bee3fc601df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="故宫">
+      </div>
+    </div>
+  </section>
+
+  <section id="day2" class="day">
+    <h2>Day 2：雄关漫道 — 八达岭长城 & 鸟巢夜景</h2>
+    <div class="content">
+      <div class="text">
+        <p><strong>上午：</strong>前往【八达岭长城】（建议坐高铁：北京北站→八达岭站，30分钟）。登长城，体验“不到长城非好汉”的豪情。</p>
+        <p><strong>下午：</strong>返回市区，参观【奥林匹克公园】，打卡【鸟巢】和【水立方】，感受现代北京的活力。</p>
+        <p><strong>晚上：</strong>在【簋街】享用麻辣小龙虾、烤鱼等美食，欣赏夜景灯光秀。</p>
+        <p><strong>小贴士：</strong>长城风大，注意保暖；穿舒适运动鞋。</p>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1569843.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="长城">
+      </div>
+    </div>
+  </section>
+
+  <section id="day3" class="day">
+    <h2>Day 3：园林之美 — 颐和园 & 798艺术区</h2>
+    <div class="content">
+      <div class="text">
+        <p><strong>上午：</strong>游览【颐和园】，漫步昆明湖畔，登上佛香阁，欣赏中国古典园林的巅峰之作。</p>
+        <p><strong>下午：</strong>前往【798艺术区】，探索当代艺术展览、创意咖啡馆和涂鸦墙，感受北京的文艺气息。</p>
+        <p><strong>晚上：</strong>前门大街散步，乘坐有轨电车，结束愉快的北京之旅。</p>
+        <p><strong>伴手礼推荐：</strong>稻香村点心、北京果脯、景泰蓝工艺品。</p>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1560109947-54314e8a8b92?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="颐和园">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 北京三日游攻略 | 适合自由行 & 家庭出游 | 数据来源：公开旅游信息</p>
+  </footer>
+
+</body>
+</html>
